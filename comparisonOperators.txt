@@ -1,0 +1,22 @@
+Int Comparison
+
+#All follow the syntax of the first example
+-eq = equal to [ "$a" -eq "$b" ]
+-ne = not equal
+
+#Definitions to these can still be used. However syntax is different for the symbols**
+-gt = >
+-ge = >=
+-lt = <
+-le = <=
+**EG. (( "$a" < "$b" ))
+String Comparison
+
+#Same syntax as above
+= - is equal
+== - is equal
+!= - is not equal
+< - less than in ASCII alphabetical order ** if [[ "$a" < "$b" ]]
+> - greater than in ASCII alphabetical order ** if [[ "$a" > "$b" ]]
+-z - is null or length zero
+
